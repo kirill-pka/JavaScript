@@ -661,30 +661,30 @@
 // extend
 // super()
 
-class Hero {
-  constructor(name = 'hero', xp = 0) {
-    this.name = name;
-    this.xp = xp;
-  }
+// class Hero {
+//   constructor(name = 'hero', xp = 0) {
+//     this.name = name;
+//     this.xp = xp;
+//   }
 
-  gainXp(amount) {
-    console.log(`${this.name} получает ${amount} опыта`);
-    this.xp += amount;
-  }
-}
+//   gainXp(amount) {
+//     console.log(`${this.name} получает ${amount} опыта`);
+//     this.xp += amount;
+//   }
+// }
 
-class Warrior extends Hero {
-  constructor(name, xp, weapon) {
-      super(name, xp);
+// class Warrior extends Hero {
+//   constructor(name, xp, weapon) {
+//       super(name, xp);
 
-      this.weapon = weapon;
-  }
-}
+//       this.weapon = weapon;
+//   }
+// }
 
-const mango = new Warrior('mango', 1000, 'алебарда');
-console.log(mango);
+// const mango = new Warrior('mango', 1000, 'алебарда');
+// console.log(mango);
 
-console.log(mango.__proto__ === Warrior.prototype);
-console.log('Warrior.prototype', Warrior.prototype);
+// console.log(mango.__proto__ === Warrior.prototype);
+// console.log('Warrior.prototype', Warrior.prototype);
 
-console.log(Warrior.prototype.__proto__ === Hero.prototype);
+// console.log(Warrior.prototype.__proto__ === Hero.prototype);
