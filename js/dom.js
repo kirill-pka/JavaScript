@@ -67,48 +67,37 @@
 // =======================================================
 // Добавление DOM элементов
 
-const mainRaf = document.createElement('main');
-mainRaf.id = 'main';
+// const mainRaf = document.createElement('main');
+// mainRaf.id = 'main';
 
-const pRaf = document.createElement('p');
-pRaf.p = 'p';
-mainRaf.append(pRaf);
+// const pRaf = document.createElement('p');
+// pRaf.p = 'p';
+// mainRaf.append(pRaf);
 
-const pLinkRaf = document.createElement('a');
-pLinkRaf.href = "/JavaScript.html";
-pLinkRaf.textContent = 'На главную';
-pRaf.append(pLinkRaf);
+// const pLinkRaf = document.createElement('a');
+// pLinkRaf.href = "/JavaScript.html";
+// pLinkRaf.textContent = 'На главную';
+// pRaf.append(pLinkRaf);
 
-const btnRaf = document.createElement('button');
-btnRaf.type = "button";
-btnRaf.classList.add('magic-btm');
-btnRaf.textContent = 'Сделать магию';
-mainRaf.append(btnRaf);
+// const btnRaf = document.createElement('button');
+// btnRaf.type = "button";
+// btnRaf.classList.add('magic-btm');
+// btnRaf.textContent = 'Сделать магию';
+// mainRaf.append(btnRaf);
 
-const spanRaf = document.createElement('span');
-spanRaf.classList.add('icon');
-spanRaf.textContent = '🧙';
-btnRaf.append(spanRaf);
+// const spanRaf = document.createElement('span');
+// spanRaf.classList.add('icon');
+// spanRaf.textContent = '🧙';
+// btnRaf.append(spanRaf);
 
-const ulRaf = document.querySelector('ul');
-// ulRaf.classList.add('sit-nav');
-mainRaf.append(ulRaf);
-// console.log(ulRaf)
-
-
-// const liRaf = document.querySelector('li');
-// liRaf.classList.add('sit-nav__item');
-// ulRaf.append(liRaf);
-
-// const liLinkRaf = document.createElement('a');
-// liLinkRaf.href = "";
-// liLinkRaf.classList.add('sit-nav__link');
-// liLinkRaf.textContent = 'О нас';
-// liRaf.append(liLinkRaf);
+// const ulRaf = document.querySelector('ul');
+// // ulRaf.classList.add('sit-nav');
+// mainRaf.append(ulRaf);
+// // console.log(ulRaf)
 
 
-console.log(mainRaf)
-document.body.append(mainRaf);
+// console.log(mainRaf)
+// document.body.append(mainRaf);
 
 
 // =======================================================
@@ -145,3 +134,5 @@ document.body.append(mainRaf);
 
 // console.log(elements)
 // productContainerEl.append(...elements);
+
+// =======================================================
