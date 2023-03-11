@@ -4,8 +4,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -19,9 +18,9 @@ p {
 }
 
 body {
-  height: 100%;
-  line-height: 1;
-  font-size: 14px;
+  margin: 24px;
+  line-height: 1.5;
+  font-size: 16px;
   color: black;
   font-weight: 500;
   font-family: sans-serif;
@@ -49,11 +48,10 @@ button {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  margin: 16px;
 }
 
 li {
-  list-style: none;
   padding-left: 0;
 }
 
@@ -62,17 +60,14 @@ a {
 }
 
 .anim-show {
-  -webkit-transform: translate(120%, 0px);
-          transform: translate(120%, 0px);
+  transform: translate(120%, 0px);
   opacity: 0;
-  -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
 
 ._anim-show._active,
 ._active ._anim-show {
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
   opacity: 1;
 }
 
@@ -83,8 +78,7 @@ a {
 }
 
 .backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -120%);
-          transform: translate(-50%, -120%);
+  transform: translate(-50%, -120%);
 }
 
 .visually-hidden {
@@ -105,18 +99,12 @@ a {
   max-width: 1200px;
   padding: 0px 15px;
   margin: 0px auto;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}/*# sourceMappingURL=main.css.map */
+  flex-direction: column;
+}/*# sourceMappingURL=index.css.map */
