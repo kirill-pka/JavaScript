@@ -67,3 +67,22 @@ https://www.youtube.com/watch?time_continue=3898&v=fOLZwexvA5c&feature=emb_title
 <!-- Библиотека lodash -->
 
 https://github.com/lodash/lodash
+
+<!-- Git -->
+
+git branch - список веток
+git branch name - добавить ветку
+git checkout main - переход на ветку
+git branch -d main - удалить
+git branch -m main - переименовать
+git log - история коммитов
+
+
+git init
+git status
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin "address "
+git push -u origin main
+git push origin main -ff
