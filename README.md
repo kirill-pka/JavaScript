@@ -73,6 +73,8 @@ git branch - список веток
 git branch name - добавить ветку
 git checkout main - переход на ветку
 git branch -d main - удалить
+git branch -m main - переименовать
+git log - история коммитов
 
 
 git init
