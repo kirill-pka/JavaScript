@@ -1,4 +1,3 @@
-import name from './module-1';
+import './common.scss';
 
-console.log(name)
-console.log('Это index.js');
+document.body.textContent = 'Это WebPack';
