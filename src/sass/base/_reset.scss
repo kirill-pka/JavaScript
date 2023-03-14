@@ -22,7 +22,7 @@ body {
     margin: 24px;
     line-height: 1.5;
     font-size: 16px;
-    color: black;
+    color: #2a2a2a;
     font-weight: 500;
     font-family: sans-serif;
     background: #FAFAFA;
@@ -39,12 +39,17 @@ address {
     margin-top: 20px;
 }
 
-button {
+button,
+label {
     display: block;
     cursor: pointer;
     border: none;
     border-radius: 4px;
 }
+
+input {
+    font: inherit;
+  }
 
 ul {
     margin: 0;

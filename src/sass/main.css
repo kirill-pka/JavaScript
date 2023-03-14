@@ -21,7 +21,7 @@ body {
   margin: 24px;
   line-height: 1.5;
   font-size: 16px;
-  color: black;
+  color: #2a2a2a;
   font-weight: 500;
   font-family: sans-serif;
   background: #FAFAFA;
@@ -38,11 +38,16 @@ address {
   margin-top: 20px;
 }
 
-button {
+button,
+label {
   display: block;
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+
+input {
+  font: inherit;
 }
 
 ul {
@@ -107,4 +112,36 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.feedback-form {
+  width: 480px;
+}
+
+.feedback-form > label {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid #2a2a2a;
+}
+
+button {
+  padding: 2px 4px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  font: inherit;
+  padding: 8px;
+}
+
+.feedback-form textarea {
+  resize: none;
+}/*# sourceMappingURL=main.css.map */
