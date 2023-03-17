@@ -39,17 +39,9 @@ https://picsum.photos/
 
 <!-- Переменные -->
 
-%section {
-padding-top: 94px;
-padding-bottom: 94px;
-}
-@extend %section;
+%section { padding-top: 94px; padding-bottom: 94px; } @extend %section;
 
-%mixins section (pt, pb){
-padding-top: 94px;
-padding-bottom: 94px;
-}
-@include
+%mixins section (pt, pb){ padding-top: 94px; padding-bottom: 94px; } @include
 
 <!-- Сайт через телефон по wifi -->
 
@@ -70,19 +62,10 @@ https://github.com/lodash/lodash
 
 <!-- Git -->
 
-git branch - список веток
-git branch name - добавить ветку
-git checkout main - переход на ветку
-git branch -d main - удалить
-git branch -m main - переименовать
+git branch - список веток git branch name - добавить ветку git checkout main -
+переход на ветку git branch -d main - удалить git branch -m main - переименовать
 git log - история коммитов
 
-
-git init
-git status
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin "address "
-git push -u origin main
-git push origin main -ff
+git init git status git add . git commit -m "first commit" git branch -M main
+git remote add origin "address " git push -u origin main git push origin main
+-ff

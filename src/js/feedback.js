@@ -39,8 +39,8 @@ function onFormSubmit(evt) {
     evt.preventDefault();
 
     const feedbackData = {
-        name: formData.nameInput.value,
-        message: formData.textarea.value,
+        name: formData.nameInput,
+        message: formData.textarea,
     };
 
     console.log('Отправляю форму', feedbackData);
